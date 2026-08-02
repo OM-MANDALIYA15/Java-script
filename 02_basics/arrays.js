@@ -24,8 +24,8 @@ for(i=0;i<array.length;i++)
 // console.log(array.indexOf(0)) // return index of 0.
 
 
-// const newArr = array.join() // .join() is convert array in to the string and return in new variable
-// console.log(array)
+ const newArr = array.join() // .join() is convert array in to the string and return in new variable
+//  console.log(newArr)
 // console.log(typeof newArr) // String
 
 // slice , splice
@@ -37,7 +37,7 @@ const myn1 = array.slice(1,4) // slice funcrtion is does affect the original arr
 // console.log("B" , array)
 
 const myn2 = array.splice(1,2) // splice function can be chanage the original value of array
-// console.log(myn2)
-// console.log("B" , array)
+console.log(myn2)
+console.log("B" , array)
 
 

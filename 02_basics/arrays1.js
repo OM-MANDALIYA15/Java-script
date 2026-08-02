@@ -26,4 +26,4 @@ let s2 = 20
 let s3 = 30
 console.log(Array.of(s1,s2,s3)) // Array.of() creates a new array from the values passed to it.
 // [10, 20, 30]
-//, Array.of() creates an array containing the argumnet you give it.
+// Array.of() creates an array containing the argumnet you give it.

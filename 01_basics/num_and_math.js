@@ -8,7 +8,7 @@ const num = new Number(100.3234)
 // console.log(num.toFixed(2))
 
 const num1 = 223.321
-// console.log(num1.toPrecision(5))
+console.log(num1.toPrecision(5))
 
 const num2 = 1000000
 // console.log(num2.toLocaleString('en-IN'))
