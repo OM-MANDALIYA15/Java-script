@@ -1,8 +1,8 @@
 const name = ["om","virat","kohli"]
 const name1 = ["rohit" , "sharma"]
 
-// name.push(name1)
-// console.log(name)
+name.push(name1)
+console.log(name)
 // console.log(name[3][0])  // rohit
 
 // const name2 = name.concat(name1)
