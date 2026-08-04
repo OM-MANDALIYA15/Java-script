@@ -18,7 +18,7 @@ const user =
 // console.log(user["college name"]) // LDRP
 // console.log(typeof user.name)
 // console.log(typeof user.age)
-// console.log(user[mysum])
+console.log(user[mysum])
 
 
 user.email = "hello@gmail.com"
@@ -44,3 +44,4 @@ user.greetingTwo = function()
 
 console.log(user.greeting())
 console.log(user.greetingTwo())
+
