@@ -1,6 +1,5 @@
 // object singleton
 
-
 const user = new Object()
 
 user.id = 20
