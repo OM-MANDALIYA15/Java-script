@@ -17,7 +17,7 @@ const user1 = {
     }
 }
 
-console.log(user1.fullname.userfullname.fname)
+// console.log(user1.fullname.userfullname.fname)
 // console.log(user1)
 
 const obj1 = {1 :"a", 2:"b"}
@@ -50,7 +50,29 @@ users[1].name
 // console.log(user)
 // console.log(users)
 
-console.log(Object.keys(user))
-console.log(Object.values(user))
-console.log(Object.entries(user))
-console.log(user.hasOwnProperty('name')); // TRUE
+// console.log(Object.keys(user))
+// console.log(Object.values(user))
+// console.log(Object.entries(user))
+// console.log(user.hasOwnProperty('name')); // TRUE
+
+const course= {
+    name : "hello",
+    price : 222
+}
+
+// console.log(course.name);
+
+const {name : n} = course
+console.log(n)
+
+
+// This is an wrote is JSON data, not an API declaration.
+// {
+//     "name": "hello",
+//     "corsename" : "om mandaliya",
+//     "price" : 300
+// }
+
+// For example, an API endpoint could be:
+
+// GET https://example.com/api/course
